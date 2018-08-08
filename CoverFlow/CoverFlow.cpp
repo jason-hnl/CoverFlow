@@ -1,7 +1,11 @@
 #include "CoverFlow.h"
 
-CoverFlow::CoverFlow(QWidget *parent)
-    : QMainWindow(parent)
+CoverFlow::CoverFlow(QWidget *parent /* = Q_NULLPTR */)
 {
-    ui.setupUi(this);
+
+}
+
+CoverFlow::~CoverFlow()
+{
+
 }

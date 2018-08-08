@@ -1,10 +1,12 @@
-#include "CoverFlow.h"
+#include "CoverFlowMW.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    CoverFlow w;
+    //a.processEvents();
+
+    CoverFlowMW &w = CoverFlowMW::getInstance();
     w.show();
     return a.exec();
 }

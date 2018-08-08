@@ -1,15 +1,14 @@
 #pragma once
 
-#include <QtWidgets/QMainWindow>
-#include "ui_CoverFlow.h"
+#include <QWidget>
 
-class CoverFlow : public QMainWindow
+class CoverFlow : public QWidget
 {
     Q_OBJECT
 
 public:
     CoverFlow(QWidget *parent = Q_NULLPTR);
-
+    ~CoverFlow();
 private:
-    Ui::CoverFlowClass ui;
+
 };
